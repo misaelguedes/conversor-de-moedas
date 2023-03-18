@@ -64,9 +64,13 @@ section > a:hover {
     background-color: rgb(132, 132, 255);
 }
 
+section > input {
+    padding: 5px;
+}
+
 section > input#botao {
     width: 75px;
-    padding: 1px;
+    padding: 5px;
     border-radius: 15px;
 }
 
