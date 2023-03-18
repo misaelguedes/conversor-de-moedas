@@ -48,6 +48,7 @@ section > a {
 }
 
 section > a#voltar {
+    background-color: rgb(207, 207, 207);
     width: 50px;
     margin-top: 20px;
     margin-left: 5px;
@@ -61,4 +62,14 @@ section > img {
 section > a:hover {
     color: white;
     background-color: rgb(132, 132, 255);
+}
+
+section > input#botao {
+    width: 75px;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+section > input#botao:hover {
+    cursor: pointer;
 }
