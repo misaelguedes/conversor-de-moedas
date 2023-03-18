@@ -73,3 +73,9 @@ section > input#botao {
 section > input#botao:hover {
     cursor: pointer;
 }
+
+div#res {
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
