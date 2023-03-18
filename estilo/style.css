@@ -82,6 +82,14 @@ div#res {
 
 @media screen and (max-width: 768px) {
     section {
-        max-width: 80%;
+        max-width: 85%;
+    }
+
+    section > p {
+        font-size: 1em;
+    }
+
+    section > input#botao {
+        padding: 2px;
     }
 }
