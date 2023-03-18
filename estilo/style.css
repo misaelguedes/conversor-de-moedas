@@ -13,42 +13,13 @@ body {
     background-size: cover;
 }
 
-header {
-    background-color: rgb(132, 132, 255);
-    height: 105px;
-    margin-top: 5px;
-}
-
-div#titulo {
-    display: block;
-    text-align: center;
-}
-
-div#titulo > h1 {
-    color: white;
-    font-size: 3em;
-    font-weight: bolder;
-    margin-top: 25px;
-    margin-left: 375px;
-    position: absolute;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
-}
-
-img#moeda1 {
-    width: 100px;
-    position: absolute;
-    margin-left: -420px;
-}
-
-img#moeda2 {
-    width: 100px;
-    position: absolute;
-    margin-left: 325px;
+header img {
+    width: 100%;
 }
 
 section {
     background-color: white;
-    width: 700px;
+    max-width: 60%;
     margin: auto;
     margin-top: 5px;
     padding: 15px;
@@ -64,7 +35,9 @@ section > p {
 section > a {
     color: black;
     font-weight: bolder;
+    max-width: 70%;
     padding: 10px;
+    margin: auto;
     margin-bottom: 10px;
     display: block;
     border: 1px solid black;
