@@ -2,7 +2,7 @@ function RealemDolar() {
     let realdolar = document.getElementById('irealemdolar')
     let res = document.getElementById('res')
     let redo = (realdolar.value)
-    let rd = redo / 5.25
+    let rd = redo / 5.24
 
     res.innerHTML = `US$: ${rd.toFixed(2)}`
 
@@ -50,7 +50,7 @@ function DolaremReal() {
     let dolarreal = document.getElementById('idolaremreal')
     let res = document.getElementById('res')
     let dore = (dolarreal.value)
-    let dr = dore * 5.25
+    let dr = dore * 5.24
 
     res.innerHTML = `R$: ${dr.toFixed(2).replace('.', ',')}`
 
@@ -66,7 +66,7 @@ function DolaremEuro() {
     let dolareuro = document.getElementById('idolaremeuro')
     let res = document.getElementById('res')
     let doeu = (dolareuro.value)
-    let de = doeu / 1.37
+    let de = doeu / 1.38
 
     res.innerHTML = `&euro;: ${de.toFixed(2)}`
 
@@ -82,7 +82,7 @@ function DolaremLibra() {
     let dolarlibra = document.getElementById('idolaremlibra')
     let res = document.getElementById('res')
     let doli = (dolarlibra.value)
-    let dl = doli / 2.18
+    let dl = doli / 2.19
 
     res.innerHTML = `&pound;: ${dl.toFixed(2)}`
 
@@ -114,7 +114,7 @@ function EuroemDolar() {
     let eurodolar = document.getElementById('ieuroemdolar')
     let res = document.getElementById('res')
     let eudo = (eurodolar.value)
-    let ed = eudo * 1.37
+    let ed = eudo * 1.38
 
     res.innerHTML = `US$: ${ed.toFixed(2)}`
 
@@ -162,7 +162,7 @@ function LibraemDolar() {
     let libradolar = document.getElementById('ilibraemdolar')
     let res = document.getElementById('res')
     let lido = (libradolar.value)
-    let ld = lido * 2.18
+    let ld = lido * 2.19
 
     res.innerHTML = `US$: ${ld.toFixed(2)}`
 
