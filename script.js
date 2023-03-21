@@ -1,7 +1,8 @@
+let vdolar = 5.24
+let veuro = 5.64
+let vlibra = 6.40
+
 function RealemDolar() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let realdolar = document.getElementById('irealemdolar')
     let res = document.getElementById('res')
     let redo = (realdolar.value)
@@ -18,9 +19,6 @@ function RealemDolar() {
 }
 
 function RealemEuro() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let realeuro = document.getElementById('irealemeuro')
     let res = document.getElementById('res')
     let reeu = (realeuro.value)
@@ -37,9 +35,6 @@ function RealemEuro() {
 }
 
 function RealemLibra() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let reallibra = document.getElementById('irealemlibra')
     let res = document.getElementById('res')
     let reli = (reallibra.value)
@@ -56,9 +51,6 @@ function RealemLibra() {
 }
 
 function DolaremReal() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let dolarreal = document.getElementById('idolaremreal')
     let res = document.getElementById('res')
     let dore = (dolarreal.value)
@@ -75,9 +67,6 @@ function DolaremReal() {
 }
 
 function DolaremEuro() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let dolareuro = document.getElementById('idolaremeuro')
     let res = document.getElementById('res')
     let doeu = (dolareuro.value)
@@ -94,9 +83,6 @@ function DolaremEuro() {
 }
 
 function DolaremLibra() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let dolarlibra = document.getElementById('idolaremlibra')
     let res = document.getElementById('res')
     let doli = (dolarlibra.value)
@@ -113,9 +99,6 @@ function DolaremLibra() {
 }
 
 function EuroemReal() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let euroreal = document.getElementById('ieuroemreal')
     let res = document.getElementById('res')
     let eure = (euroreal.value)
@@ -132,9 +115,6 @@ function EuroemReal() {
 }
 
 function EuroemDolar() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let eurodolar = document.getElementById('ieuroemdolar')
     let res = document.getElementById('res')
     let eudo = (eurodolar.value)
@@ -151,9 +131,6 @@ function EuroemDolar() {
 }
 
 function EuroemLibra() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let eurolibra = document.getElementById('ieuroemlibra')
     let res = document.getElementById('res')
     let euli = (eurolibra.value)
@@ -170,9 +147,6 @@ function EuroemLibra() {
 }
 
 function LibraemReal() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let librareal = document.getElementById('ilibraemreal')
     let res = document.getElementById('res')
     let lire = (librareal.value)
@@ -189,9 +163,6 @@ function LibraemReal() {
 }
 
 function LibraemDolar() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let libradolar = document.getElementById('ilibraemdolar')
     let res = document.getElementById('res')
     let lido = (libradolar.value)
@@ -208,9 +179,6 @@ function LibraemDolar() {
 }
 
 function LibraemEuro() {
-    let vdolar = 5.25
-    let veuro = 5.66
-    let vlibra = 6.42
     let libraeuro = document.getElementById('ilibraemeuro')
     let res = document.getElementById('res')
     let lieu = (libraeuro.value)
