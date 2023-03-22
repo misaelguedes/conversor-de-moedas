@@ -1,4 +1,4 @@
-let vdolar = 5.22
+let vdolar = 5.23
 let veuro = 5.68
 let vlibra = 6.42
 
