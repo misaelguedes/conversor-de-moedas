@@ -1,5 +1,5 @@
-let vdolar = 4.92
-let veuro = 5.34
+let vdolar = 4.89
+let veuro = 5.32
 let vlibra = 6.13
 
 function RealemDolar() {
