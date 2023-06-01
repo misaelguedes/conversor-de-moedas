@@ -1,6 +1,6 @@
-let vdolar = 5.09
-let veuro = 5.42
-let vlibra = 6.31
+let vdolar = 5.01
+let veuro = 5.40
+let vlibra = 6.28
 
 function RealemDolar() {
     let realdolar = document.getElementById('irealemdolar')
