@@ -1,6 +1,16 @@
-let vdolar = 4.92
-let veuro = 5.31
-let vlibra = 6.18
+function fetchExchangeRates() {
+    fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,GBP-BRL')
+      .then(response => response.json())
+      .then(data => {
+        // Extrair as taxas de câmbio da resposta
+        vdolar = data.USDBRL.high;
+        veuro = data.EURBRL.high;
+        vlibra = data.GBPBRL.high;
+      })
+      .catch(error => {
+        alert('Ocorreu um erro ao tentar obter as taxas de câmbio no momento. Por favor, verifique sua conexão com a internet e tente novamente mais tarde.');
+      });
+  }
 
 function RealemDolar() {
     let realdolar = document.getElementById('irealemdolar')
